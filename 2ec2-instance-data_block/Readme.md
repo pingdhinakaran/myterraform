@@ -1,4 +1,4 @@
-#Create a ec2 instance using variable.
+#Create a ec2 instance using variable and data block 
 
 ## why veriable required in real scenario
 
@@ -10,3 +10,8 @@
 
 ##### to solve those problem and to make our code easy we are using veriable. 
 
+## Data Block: 
+
+##### A data block requests that Terraform read from a given data source ("aws_ami") and export the result under the given local name ("example"). The name is used to refer to this resource from elsewhere in the same Terraform module, but has no significance outside of the scope of a module.
+
+https://www.terraform.io/language/data-sources
